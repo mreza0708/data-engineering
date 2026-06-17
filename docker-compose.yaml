@@ -8,7 +8,7 @@ services:
     volumes:
       - "ny_taxi_postgres_data:/var/lib/postgresql:rw"
     ports:
-      - "5433:5432"
+      - "15432:5432"
 
 volumes:
   ny_taxi_postgres_data:
